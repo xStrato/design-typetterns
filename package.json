@@ -1,0 +1,17 @@
+{
+  "name": "design-typetterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.ts --w"
+  },
+  "keywords": [],
+  "author": "xStrato",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.0.27",
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.7"
+  }
+}
