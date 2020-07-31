@@ -22,7 +22,7 @@ class Database
 }
 
 const Singleton = (): void => {
-
+  console.log("\n*Singleton*")
   const connection = Database.getDatabase()
   connection.connect("StringConnection")
   connection.executeQuery("SELECT money FROM BillGatesAccount")

@@ -32,7 +32,8 @@ class AbstractFactory
 }
 
 const Application = (platform: string): void => {
-
+  
+  console.log("*AbstractFactory*")
   let factory: IGUIFactory
 
   switch(platform)

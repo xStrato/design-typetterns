@@ -5,6 +5,7 @@ class FactoryMethod
   #dialog: Dialog;
   constructor(platform: string)
   {
+    console.log("\n*FactoryMethod*")
     switch(platform)
     {
       case 'linux': this.#dialog = new WebDialog(); break;
