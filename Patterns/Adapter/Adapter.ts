@@ -5,8 +5,8 @@ import SquarePegAdapter from "./SquarePegAdapter"
 const Adapter = (): void => {
   console.log("\n*Adapter*")
 
-  const hole = new RoundHole(5)
-  const peg = new RoundPeg(5)
+  const hole = new RoundHole(5);
+  const peg = new RoundPeg(5);
   console.log(`The "Round peg" fits the round hole?: ${hole.fits(peg)}`)
 
   var smallSqPeg = new SquarePeg(5);
@@ -20,6 +20,5 @@ const Adapter = (): void => {
   console.log(`The adapted large "Square peg" fits the round hole?: ${hole.fits(largeSqPegAdapter)}`)
   console.log()
 }
-
 
 export default Adapter;
